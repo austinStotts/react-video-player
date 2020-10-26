@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Player from './components/player';
 
 class App extends Component {
   constructor() {
@@ -7,7 +8,10 @@ class App extends Component {
 
   render () {
     return (
-      <div>{"hello world :)"}</div>
+      <div>
+        <div>{"hello world :)"}</div>
+        <Player link="./naruto-shippuden-opening-16-silhouette.mp4 "/>
+      </div>
     )
   }
 }
